@@ -1,0 +1,19 @@
+{
+  "name": "configuration-tailwindcss",
+  "version": "1.0.0",
+  "description": "tutorial how to install tailwind in your projuet",
+  "main": "tailwind.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefix": "^1.0.1",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  },
+  "scripts": {
+    "build:css": "npx tailwindcss build -i ./src/css/input.css -o ./public/css/config.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

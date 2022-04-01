@@ -1,0 +1,8 @@
+/* reset to default style and use tailwind style */
+@tailwind base;
+
+/* Get Components Tailwind Like Container */
+@tailwind components;
+
+/* Get Utilities Tailwind Like Button,Color,Margin,Padding And More */
+@tailwind utilities;
