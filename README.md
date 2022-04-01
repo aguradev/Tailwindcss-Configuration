@@ -30,21 +30,19 @@ npm init
 npm i -D tailwindcss
 ```
 
-### I prefer to use this to install tailwindcss
-
-<hr>
+## I prefer to use this to install tailwindcss
 
 ```
 npm i -D tailwindcss postcss autoprefixer
 ```
 
-### Create Configuration tailwind file
+## Create Configuration tailwind file
 
 ```
 npx tailwindcss init
 ```
 
-### Example configuration content file in tailwind.config.js
+## Example configuration content file in tailwind.config.js
 
 ```JS
 module.exports = {
@@ -56,7 +54,7 @@ module.exports = {
 };
 ```
 
-### Create file type.css and add Tailwind Directives in your css
+## Create file type.css and add Tailwind Directives in your css
 
 ```css
 /* reset to default style and use tailwind style */
@@ -69,7 +67,7 @@ module.exports = {
 @tailwind utilities;
 ```
 
-### Run npx to compile preprocessor css for create file.css and use it to your project
+## Run npx to compile preprocessor css for create file.css and use it to your project
 
 ```
 npx tailwindcss -i ./input.css -o ./new-file.css --watch
