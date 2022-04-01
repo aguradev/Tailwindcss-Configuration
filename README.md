@@ -16,15 +16,13 @@ Source : https://tailwindcss.com/docs/installation
 
 # How To Install And Configuration
 
-### Configuration npm to folder
+## Configuration npm to folder
 
 ```
 npm init
 ```
 
-### Default Install Tailwindcss
-
-<hr>
+## Default Install Tailwindcss
 
 ```
 npm i -D tailwindcss
